@@ -14,11 +14,10 @@ class BallPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Ask Me Anything"),
-        backgroundColor: Colors.blue,
-      ),
+          title: Text("Ask Me Anything"),
+          backgroundColor: Color.fromARGB(255, 7, 121, 113)),
       body: Ball(),
-      backgroundColor: Color.fromARGB(162, 33, 149, 243),
+      backgroundColor: Color.fromARGB(161, 33, 243, 79),
     );
   }
 }
